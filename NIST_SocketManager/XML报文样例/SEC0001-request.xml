@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NIST_MESSAGE>
+	<MSG_VERSION desc="协议版本号">1.0</MSG_VERSION>
+	<MSG_TYPE desc="报文类型">request</MSG_TYPE>
+	<REQ_SYSTEM desc="请求系统标识">NIST-SVR</REQ_SYSTEM>
+	<REQ_SYSTEM_CODE desc="请求系统编号">SVR001</REQ_SYSTEM_CODE>
+	<SVR_SYSTEM desc="服务系统标识">NIST-SEC</SVR_SYSTEM>
+	<SVR_SYSTEM_CODE desc="服务系统编号">SEC001</SVR_SYSTEM_CODE>
+	<REQ_DATE desc="发起请求日期">20171012</REQ_DATE>
+	<REQ_TIME desc="发起请求时间">123059</REQ_TIME>
+	<REQ_DEALNO desc="请求端流水号">2017000001</REQ_DEALNO>
+	<SVR_CLASS desc="请求服务类型">SEC</SVR_CLASS>
+	<SVR_CODE desc="请求服务代码">0001</SVR_CODE>
+	<MSG_BODY>
+		<KEY_VERSION desc="密钥版本">1.0.0.0</KEY_VERSION>
+		<KEY_USAGE desc="密钥用途">S</KEY_USAGE>
+		<ALGID desc="算法标识">SM2</ALGID>
+		<KEY_BITS desc="密钥长度">256</KEY_BITS>
+	</MSG_BODY>
+	<MAC desc="报文认证码"></MAC>
+</NIST_MESSAGE>

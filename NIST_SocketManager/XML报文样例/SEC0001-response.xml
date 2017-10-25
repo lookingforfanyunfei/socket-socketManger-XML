@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NIST_MESSAGE>
+	<MSG_VERSION desc="协议版本号">1.0</MSG_VERSION>
+	<MSG_TYPE desc="报文类型">response</MSG_TYPE>
+	<REQ_SYSTEM desc="请求系统标识">NIST-SVR</REQ_SYSTEM>
+	<REQ_SYSTEM_CODE desc="请求系统编号">SVR001</REQ_SYSTEM_CODE>
+	<SVR_SYSTEM desc="服务系统标识">NIST-SEC</SVR_SYSTEM>
+	<SVR_SYSTEM_CODE desc="服务系统编号">SEC001</SVR_SYSTEM_CODE>
+	<REQ_DATE desc="发起请求日期">20171012</REQ_DATE>
+	<REQ_TIME desc="发起请求时间">123059</REQ_TIME>
+	<REQ_DEALNO desc="请求端流水号">2017000001</REQ_DEALNO>
+	<SVR_CLASS desc="请求服务类型">SEC</SVR_CLASS>
+	<SVR_CODE desc="请求服务代码">0001</SVR_CODE>
+	<RESP_DATE desc="处理日期">20171012</RESP_DATE>
+	<RESP_TIME desc="处理时间">124059</RESP_TIME>
+	<SVR_DEALNO desc="服务端流水号">S2017000001</SVR_DEALNO>
+	<RET_CODE desc="响应码">0000</RET_CODE>
+	<DESCRIPTION desc="响应码描述">处理成功</DESCRIPTION>
+	<MSG_BODY>
+		<KEY_INDEX desc="密钥索引">PVK0001</KEY_INDEX>
+		<PUK_CODING desc="公钥编码方式">DER</PUK_CODING>
+		<PUKEY desc="公钥编码">PX+PY</PUKEY>
+	</MSG_BODY>
+	<MAC desc="报文认证码"></MAC>
+</NIST_MESSAGE>
